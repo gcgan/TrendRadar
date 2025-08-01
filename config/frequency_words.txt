@@ -1,12 +1,24 @@
-鸿蒙
-HarmonyOS
+人工智能
+AI
+
+国产化
+信创
+
+deepseek
+
+通义千问
+Qwen
+通义灵码
+
+chatglm
+doubao
+腾讯元宝
 
 微软
 Microsoft
 
 英伟达
 NVIDIA
-
 AMD
 
 谷歌
@@ -21,38 +33,24 @@ openai
 claude
 Anthropic
 
-DeepSeek
-梁文锋
-
-通义千问
-qwq
-
-doubao
-
-chatglm
-
-腾讯元宝
 
 新能源
 自动驾驶
-
-国产化
-信创
 
 网络安全
 信息安全
 
 保密
+间谍
 
 芯片
 
-机器人
-
-人工智能
-
 科技
-科技创新
+创新
 
 新质生产力
 
 软件工程3.0
+
+国资
+央企

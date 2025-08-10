@@ -1,0 +1,121 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-08-11 07:41:09</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>_36kr</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">人工智能 AI</td>
+                <td class="count">5</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753020" target="_blank" class="news-link">狼真的来了！“AI第一轮就业大冲击”已至，矛头直指年轻人</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时41分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2097911" target="_blank" class="news-link">云天励飞战略聚焦AI芯片，三大核心布局押注推理蓝海</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时41分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=JKAI%E6%9D%B0%E5%87%AF%E9%94%90%E8%AF%84%E6%AD%8C%E6%89%8B%E6%80%BB%E5%86%B3%E8%B5%9B" target="_blank" class="news-link">JKAI杰凯锐评歌手总决赛</a> [10] <font color='grey'>- 07时41分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202508/1049279.html" target="_blank" class="news-link">拉脱维亚国会团访台 将访亚洲无人机AI研创中心</a> [13] <font color='grey'>- 07时41分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E4%B8%BA%E4%BD%95%E6%95%B0%E4%B8%8D%E6%B8%85%E6%89%8B%E6%8C%87" target="_blank" class="news-link">AI为何数不清手指</a> [20] <font color='grey'>- 07时41分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">芯片</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753023" target="_blank" class="news-link">玉渊谭天：美国如何给芯片安“后门”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时41分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31365292" target="_blank" class="news-link">玉渊谭天丨独家观察：美国如何给芯片安“后门”</a> [6] <font color='grey'>- 07时41分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">英伟达 NVIDIA AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[联合早报] <a href="https://www.zaochenbao.com/news/china/202508/1049268.html" target="_blank" class="news-link">中国官媒批英伟达H20晶片不安全不先进不环保</a> [24] <font color='grey'>- 07时41分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技 创新</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[联合早报] <a href="https://www.zaochenbao.com/news/hkMacao/202508/1049271.html" target="_blank" class="news-link">李家超：截至7月底在港注册公司总数创新高</a> [21] <font color='grey'>- 07时41分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国资 央企</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%96%B0%E5%A4%AE%E4%BC%81%E8%91%A3%E4%BA%8B%E9%95%BF%E7%99%BB%E9%97%A8%E6%8B%9C%E8%AE%BF%E4%BB%BB%E6%AD%A3%E9%9D%9E" target="_blank" class="news-link">新央企董事长登门拜访任正非</a> [27] <font color='grey'>- 07时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+        <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E6%96%B0%E5%A4%AE%E4%BC%81%E8%91%A3%E4%BA%8B%E9%95%BF%E7%99%BB%E9%97%A8%E6%8B%9C%E8%AE%BF%E4%BB%BB%E6%AD%A3%E9%9D%9E" target="_blank" class="news-link">新央企董事长登门拜访任正非</a> [27]</li></ul></div>
+    </body>
+    </html>
+    

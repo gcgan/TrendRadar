@@ -1,0 +1,105 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-10-27 14:33:40</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>_36kr</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">科技 创新</td>
+                <td class="count">6</td>
+                <td class="percentage">2.35%</td>
+                <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31839165" target="_blank" class="news-link">新城市志︱中国科技城，争当文旅优等生</a> [6] <font color='grey'>- 14时33分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757937" target="_blank" class="news-link">美股指数期货走高，日股首破5万点、韩股首破4000点均创新高，铜、大豆上涨，黄金下挫1%</a> [6] <font color='grey'>- 14时33分</font><br>[知乎] <a href="https://www.zhihu.com/question/1964957293809493824" target="_blank" class="news-link">如何看待超千名科技领袖呼吁暂停开发超级智能？</a> [7] <font color='grey'>- 14时33分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31841072" target="_blank" class="news-link">解放日报论上海全面发力“十五五”：提升创新效能，抢占科技“制高点”</a> [17] <font color='grey'>- 14时33分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202510/2755797.html" target="_blank" class="news-link">中共中央批准 开除国家国防科技工业局张建华党籍</a> [19] <font color='grey'>- 14时33分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%87%8C%E5%A4%AB%E6%96%AF51%E5%88%86%E5%88%9B%E6%96%B0%E9%AB%98" target="_blank" class="news-link">里夫斯51分创新高</a> [29] <font color='grey'>- 14时33分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">人工智能 AI</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757943" target="_blank" class="news-link">沪指逼近4000点，中信证券成交超百亿，AI硬件活跃，恒科指涨近2%，药明康德涨超5%</a> [8] <font color='grey'>- 14时33分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E5%A4%A7%E7%94%B5%E5%BD%B1%E8%91%AB%E8%8A%A6%E5%85%84%E5%BC%9F" target="_blank" class="news-link">AI大电影葫芦兄弟</a> [19] <font color='grey'>- 14时33分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">芯片</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2180939" target="_blank" class="news-link">四季度eSSD涨幅据预测将达到10% 国产芯片概念股单日涨近17% 本周机构密集调研相关上市公司</a> [6] <font color='grey'>- 14时33分</font></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+        <h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3757943" target="_blank" class="news-link">沪指逼近4000点，中信证券成交超百亿，AI硬件活跃，恒科指涨近2%，药明康德涨超5%</a> [8]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E9%87%8C%E5%A4%AB%E6%96%AF51%E5%88%86%E5%88%9B%E6%96%B0%E9%AB%98" target="_blank" class="news-link">里夫斯51分创新高</a> [29]</li></ul></div>
+    </body>
+    </html>
+    

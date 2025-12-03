@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-12-03 20:47:24</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>_36kr</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">人工智能 AI</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3760564" target="_blank" class="news-link">亚马逊重磅发布挑战谷歌英伟达：AI芯片Trainium 3更快更节能，四款Nova 2模型，首创“开放式训练”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时47分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2218001" target="_blank" class="news-link">谷歌 VS OpenAI：短短三年 “红色警报”发布方悄然互换！</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时47分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3760553" target="_blank" class="news-link">金价10000美元、量子计算突破引发恐慌、AI触发全面危机......这家投行2026年“离谱”预测来了</a> [7] <font color='grey'>- 20时47分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">通义千问 Qwen 通义灵码</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1969725963605643461" target="_blank" class="news-link">Lora 微调 Qwen3-32B 效果差是什么原因？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时47分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">网络安全 信息安全</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202512/0358912.html" target="_blank" class="news-link">印度强制预装政府网络安全应用规定引发强烈反弹</a> [6] <font color='grey'>- 20时47分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技 创新</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/world/202512/0358908.html" target="_blank" class="news-link">新加坡江苏将把握新机遇 加强生物医药科学及创新等领域合作</a> [10] <font color='grey'>- 20时47分</font></div></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+        <h4>联合早报 (2 条)</h4><ul><li><a href="https://www.zaochenbao.com/news/politics/202512/0358912.html" target="_blank" class="news-link">印度强制预装政府网络安全应用规定引发强烈反弹</a> [6]</li><li><a href="https://www.zaochenbao.com/news/world/202512/0358908.html" target="_blank" class="news-link">新加坡江苏将把握新机遇 加强生物医药科学及创新等领域合作</a> [10]</li></ul></div>
+    </body>
+    </html>
+    
